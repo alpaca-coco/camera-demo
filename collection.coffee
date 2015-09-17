@@ -1,1 +1,1 @@
-@myColl = new Mongo.Colletion 'pictures'
+@myColl = new Mongo.Collection 'pictures'

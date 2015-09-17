@@ -10,5 +10,10 @@
 
 <template name="hello">
   <button>拍摄</button>
-  <p></p>
+  <p>
+      {{each pictures}}
+      <img data-id={{_id}} class="small-picture" src="{{pic}}"/>
+      <span>{{time}}</span>
+      {{/each}}
+  </p>
 </template>
